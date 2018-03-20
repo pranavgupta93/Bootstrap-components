@@ -1,0 +1,26 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+.containerItem{
+	width: 30vw;
+	margin: 1vw;
+	background-color: #bfff00;
+	padding: 1vw;
+	border: solid;
+	border-color: #86b300;
+}
+h2,h3{
+	color: #86b300;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+@media only screen and (max-width: 570px){
+	.containerItem{
+		width: 90vw;
+	}
+}

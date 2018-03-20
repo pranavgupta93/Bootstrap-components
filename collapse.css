@@ -1,0 +1,20 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+.containerItem{
+	width: 25vw;
+	margin: 1vw;
+	background-color: #bfff00;
+	padding: 1vw;
+	border: solid;
+	border-color: #86b300;
+}
+h2,h3{
+	color: #86b300;
+}
+button{
+	width: 100%;
+}
